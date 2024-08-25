@@ -6,7 +6,7 @@ from tkinter import ttk
 from PIL import Image
 from PIL.ExifTags import TAGS
 
-# Function to convert images to WebP format
+
 def convert_images():
     input_folder = input_folder_entry.get()
     output_folder = output_folder_entry.get()
